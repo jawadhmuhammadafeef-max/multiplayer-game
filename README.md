@@ -1,1 +1,3 @@
-# multiplayer-game
+<button
+        onclick='fetch("https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile@main/AASINGLEFILE.html?t="+Date.now()).then(response => response.text()).then(text => {const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(text);newWin.document.close();}});'
+        style="width: 100%; height: 100%; font-size: 100;"
